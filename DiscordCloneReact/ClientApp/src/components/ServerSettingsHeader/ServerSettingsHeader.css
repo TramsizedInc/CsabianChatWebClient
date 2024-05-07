@@ -1,0 +1,48 @@
+﻿.ServerSettingsHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ServerSettingsHeaderName {
+    color: white;
+}
+
+.ServerSettingsButton {
+    cursor: pointer;
+}
+
+.ServerSettingsModalContent {
+    user-select: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ServerSettingsOption {
+    cursor: pointer;
+    color: #81867c;
+}
+
+.ServerSettingsModalHeader {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ServerSettingsModalContainer {
+    display: flex;
+    flex: 1;
+}
+
+.ServerSettingsModalMenu {
+    flex: 3;
+    border-right: 2px solid white;
+}
+
+.ServerSettingsModalActionArea {
+    flex: 7;
+    padding-left: 20px;
+}
+
+.ServerSettingsSelected {
+    color: white;
+}

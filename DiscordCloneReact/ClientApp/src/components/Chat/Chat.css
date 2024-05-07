@@ -1,0 +1,12 @@
+﻿.Chat {
+    flex: 1 0;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    width: auto;
+}
+
+.ChatHeader {
+    color: white;
+    padding: 7px 10px 0 10px;
+}

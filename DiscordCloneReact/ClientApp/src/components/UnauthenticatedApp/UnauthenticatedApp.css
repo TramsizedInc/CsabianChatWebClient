@@ -1,0 +1,54 @@
+﻿.UnauthenticatedApp {
+    background-color: #202225;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AuthenticationContainer {
+    background-color: #36393f;
+    padding: 10px 10px 30px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+}
+
+.AuthenticationContainerHeading {
+    margin-bottom: 30px;
+    color: white;
+}
+
+.AuthenticationMenu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.CloseButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.CloseButtonLink {
+    display: flex;
+    color: inherit;
+    
+}
+
+.CloseButtonLink:hover {
+    color: inherit;
+}
+
+.FormContainer {
+    width: 20vw;
+    padding-right: 20px;
+}
+
+.FormContainerHeader {
+    color: white;
+}
