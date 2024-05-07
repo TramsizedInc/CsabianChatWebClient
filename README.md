@@ -1,8 +1,7 @@
-# DiscordCloneReact
+# CsabaChat
 
-DiscordCloneReact is a Discord Clone implemented using React for the frontend and C# with SignalR for the backend chatting functionality.
+CsabaChat egy telekommunkiciós alkalmazás amely a felhő technológiák implementálásával egy igazán modern és biztonságos élményt nyújt a felhasználóinak.
 
-Take a look: [https://discordclonereact.azurewebsites.net/](https://discordclonereact.azurewebsites.net/)
 
 ---
 
@@ -24,22 +23,20 @@ Take a look: [https://discordclonereact.azurewebsites.net/](https://discordclone
 
 ---
 
-## Chat for a sample channel
+## Csevegés minta
 
-![Example Channel](images/discordclone_channel.png)
-
+![Csevegés minta](images/discordclone_channel.png)
 ---
-
 ## Technologies used
 
-- [React](https://reactjs.org/) - JavaScript library for building User Interfaces
-- [.NET](https://docs.microsoft.com/en-us/dotnet/) - Used for backend API management
-- [EF Core](https://docs.microsoft.com/en-us/ef/core/) - ORM (Object Relational Mapper) used in .NET to access databases
+- [React](https://reactjs.org/) - Frontend készült vele
+- [.NET](https://docs.microsoft.com/en-us/dotnet/) - Backend készült benne
+- [EF Core](https://docs.microsoft.com/en-us/ef/core/) - ORM (Object Relational Mapper) a .NET által kezelt adatbázisokhoz
 - [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-2019) - Microsoft Relational Database
-- [antdesign](https://ant.design/) - UI framework for React
-- [datefns](https://date-fns.org/) - JavaScript Date-parsing library
-- [formik](https://formik.org/) - Popular form library for React
-- [axios](https://github.com/axios/axios) - Http Client for node.js
+- [antdesign](https://ant.design/) - UI keretrendszer React-hoz
+- [datefns](https://date-fns.org/) - JavaScript könyvtár, dátum pars-oláshoz
+- [formik](https://formik.org/) - React.js könyvtár
+- [axios](https://github.com/axios/axios) - Http Kliens node.js-hez
 
 ---
 
