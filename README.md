@@ -5,27 +5,27 @@ CsabaChat egy telekommunkiciós alkalmazás amely a felhő technológiák implem
 
 ---
 
-## Welcome Page
+## Fogadó oldal
 
-![Welcome](images/discordclone_home.png)
+![Welcome](images/csabachat_wellcome.png)
 
 ---
 
-## Login Page
+## Login Oldal
 
-![Login](images/discordclone_login.png)
+![Login](images/csabachat_login.png)
 
 ---
 
 ## Homepage
 
-![Homepage](images/discordclone_welcome.png)
+![Homepage](images/csabachat_home.png)
 
 ---
 
 ## Csevegés minta
 
-![Csevegés minta](images/discordclone_channel.png)
+![Csevegés minta](images/csabachat_channel.png)
 ---
 ## Technologies used
 
