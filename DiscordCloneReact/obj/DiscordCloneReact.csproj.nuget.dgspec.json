@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Csongi\\Source\\Repos\\DiscordClone\\DiscordCloneReact\\DiscordCloneReact.csproj": {}
+    "C:\\Users\\admin\\3D Objects\\CsabianChatWebClient\\DiscordCloneReact\\DiscordCloneReact.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Csongi\\Source\\Repos\\DiscordClone\\DiscordCloneReact\\DiscordCloneReact.csproj": {
+    "C:\\Users\\admin\\3D Objects\\CsabianChatWebClient\\DiscordCloneReact\\DiscordCloneReact.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Csongi\\Source\\Repos\\DiscordClone\\DiscordCloneReact\\DiscordCloneReact.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\3D Objects\\CsabianChatWebClient\\DiscordCloneReact\\DiscordCloneReact.csproj",
         "projectName": "DiscordCloneReact",
-        "projectPath": "C:\\Users\\Csongi\\Source\\Repos\\DiscordClone\\DiscordCloneReact\\DiscordCloneReact.csproj",
-        "packagesPath": "C:\\Users\\Csongi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Csongi\\Source\\Repos\\DiscordClone\\DiscordCloneReact\\obj\\",
+        "projectPath": "C:\\Users\\admin\\3D Objects\\CsabianChatWebClient\\DiscordCloneReact\\DiscordCloneReact.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\3D Objects\\CsabianChatWebClient\\DiscordCloneReact\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Csongi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net5.0": {
@@ -114,6 +114,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -122,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
